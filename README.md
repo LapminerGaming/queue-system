@@ -11,5 +11,7 @@ Chúng ta cần 2 màn hình để sử dụng(Có thể dùng chung 1 máy tín
 ![demo](https://i.upanh.org/2024/04/16/Screenshot_20240416-212907_Chromecbac0c55dc0945eb.jpeg)
 #### Ngoài ra còn có tiện ích cho admin(nhân viên) 
 - File admin.php sẽ hiển thị danh sách hàng chờ và các tiện ích như gọi số thứ tự và xóa tên trong hàng chờ
-
+![demo](https://upanh.org/image/Screenshot-20240416-212907-Chrome.j2aRcahttps://upanh.org/image/Screenshot-20240416-213235-Chrome.j2aFU9)
+# Chú ý :
+Không chỉnh sửa file data.json và audio.json vì nếu bạn chinh sửa file có thể gây ra lỗi
 
