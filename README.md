@@ -5,5 +5,6 @@ Hệ thống hàng chờ là một hệ thống tự động hoặc bán tự đ
 Chúng ta cần 2 màn hình để sử dụng(Có thể dùng chung 1 máy tính , để ở chế độ Mở rộng cho 2 màn hình)<br />
 1 màn hình sẽ ở index.php
 ![demo](https://i.upanh.org/2024/04/16/Screenshot_20240416-212155_Chromebee1b414b2611a09.jpeg)
+- Khi khách hàng nhập thông tin thì những thông tin đó sẽ được lưu vào data.json
 
 
