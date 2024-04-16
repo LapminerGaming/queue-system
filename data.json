@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Customer 1",
+        "phone": "123456789",
+        "time": 1617037600
+    },
+    {
+        "name": "Customer 2",
+        "phone": "987654321",
+        "time": 1617037800
+    },
+    {
+        "name": "Customer 3",
+        "phone": "555555555",
+        "time": 1617038000
+    }
+]
