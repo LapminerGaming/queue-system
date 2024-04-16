@@ -10,12 +10,12 @@ Chúng ta cần 2 màn hình để sử dụng(Có thể dùng chung 1 máy tín
 <br />
 - Màn hình còn lại sẽ ở file show-queue.php để hiển thị hàng chờ
 - <br />
-![demo](https://i.upanh.org/2024/04/16/Screenshot_20240416-212907_Chromecbac0c55dc0945eb.jpeg)
+![demo1](https://i.upanh.org/2024/04/16/Screenshot_20240416-212907_Chromecbac0c55dc0945eb.jpeg)
 <br />
 #### Ngoài ra còn có tiện ích cho admin(nhân viên) 
 - File admin.php sẽ hiển thị danh sách hàng chờ và các tiện ích như gọi số thứ tự và xóa tên trong hàng chờ
 <br />
-![demo](https://upanh.org/image/Screenshot-20240416-212907-Chrome.j2aRcahttps://upanh.org/image/Screenshot-20240416-213235-Chrome.j2aFU9)
+![demo2](https://upanh.org/image/Screenshot-20240416-212907-Chrome.j2aRcahttps://upanh.org/image/Screenshot-20240416-213235-Chrome.j2aFU9)
 <br />
 # Chú ý :
 Không chỉnh sửa file data.json và audio.json vì nếu bạn chinh sửa file có thể gây ra lỗi
