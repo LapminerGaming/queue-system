@@ -124,23 +124,5 @@ if (is_array($data)) {
 } ?>
 
 </br>
-    <form method="post">
-        <button type="submit" name="toggle">Gọi người số 1</button>
-    </form>
-
-    <?php
-    if(isset($_POST['toggle'])) {
-        $file = 'audio.json';
-        $data = json_decode(file_get_contents($file), true);
-
-        // Kiểm tra nếu state là "disabled" thì chuyển sang "enabled" và ngược lại
-        $data['state'] = ($data['state'] === 'disabled') ? 'enabled' : 'disabled';
-
-        file_put_contents($file, json_encode($data));
-
-        // Redirect hoặc in ra thông báo
-        echo "Đã chỉnh sửa âm thanh: " . $data['state'];
-    }
-    ?>
 </body>
 </html>
