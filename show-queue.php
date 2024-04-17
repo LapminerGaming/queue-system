@@ -67,6 +67,7 @@ if ($data !== null) {
     <div class="container">
         <h1>Hàng chờ</h1>
         <h3>Chờ tên của bạn qua nằm trong vạch màu xanh</h3>
+        <marquee direction="left">Hàng chờ sẽ tự động cập nhật sau mỗi 15 giây. Hãy chú ý đến màn hình.</marquee>
         <?php if (count($data) > 0) { ?>
         
         <table>
@@ -99,16 +100,11 @@ if ($data !== null) {
         <?php } ?>
     </div>
     <script>
-             // Load state từ file audio.json
-        fetch('audio.json')
-            .then(response => response.json())
-            .then(data => {
-                // Kiểm tra nếu state là "enabled" thì phát nhạc
-                if (data.state === 'enabled') {
-                    var audio = new Audio('thongbao.mp3');
-                    audio.play();
-                }
-            });
+window.onload = function() {
+  var audio = new Audio('level-up-191997.mp3');
+  audio.play();
+}
+
     </script>
 </body>
 </html>
